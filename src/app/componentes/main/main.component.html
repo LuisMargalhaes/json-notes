@@ -1,0 +1,15 @@
+<button routerLink="/criar-nota">Criar Nota</button>
+
+<div *ngIf="listaNotas.length > 0, else semNotas">
+    <div *ngFor="let nota of listaNotas">
+        <app-nota [nota]="nota"></app-nota>
+    </div>
+</div>
+
+<ng-template #semNotas>
+    <div>
+        <p>Não há notas =(</p>
+    </div>
+</ng-template>
+
+

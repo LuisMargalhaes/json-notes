@@ -1,0 +1,17 @@
+.tipo1{
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+.tipo2{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+}
+.tipo3{
+    width: 250px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+}
